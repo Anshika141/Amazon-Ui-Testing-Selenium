@@ -1,0 +1,7 @@
+<suite name="Amazon Test Suite">
+    <test name="Add To Cart Test">
+        <classes>
+            <class name="com.automation.tests.AddToCartTest"/>
+        </classes>
+    </test>
+</suite>
