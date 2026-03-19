@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-19T17:53:05 UTC" name="Amazon Test Suite" finished-at="2026-03-19T17:53:54 UTC" duration-ms="49595">
+  <suite started-at="2026-03-19T18:14:41 UTC" name="Amazon Test Suite" finished-at="2026-03-19T18:15:08 UTC" duration-ms="27126">
     <groups>
     </groups>
-    <test started-at="2026-03-19T17:53:05 UTC" name="Add To Cart Test" finished-at="2026-03-19T17:53:54 UTC" duration-ms="49595">
+    <test started-at="2026-03-19T18:14:41 UTC" name="Add To Cart Test" finished-at="2026-03-19T18:15:08 UTC" duration-ms="27126">
       <class name="com.automation.tests.AddToCartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.AddToCartTest@79ca92b9]" started-at="2026-03-19T17:53:05 UTC" name="setup" finished-at="2026-03-19T17:53:10 UTC" duration-ms="4991" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.AddToCartTest@79ca92b9]" started-at="2026-03-19T18:14:41 UTC" name="setup" finished-at="2026-03-19T18:14:48 UTC" duration-ms="6608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddToCart()[pri:0, instance:com.automation.tests.AddToCartTest@79ca92b9]" started-at="2026-03-19T17:53:10 UTC" name="testAddToCart" finished-at="2026-03-19T17:53:54 UTC" duration-ms="44455" status="FAIL">
+        <test-method signature="testAddToCart()[pri:0, instance:com.automation.tests.AddToCartTest@79ca92b9]" started-at="2026-03-19T18:14:48 UTC" name="testAddToCart" finished-at="2026-03-19T18:15:08 UTC" duration-ms="20318" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.6.87.2-microsoft-standard-WSL2', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f274d67078fcad013855117149726e2, getWindowHandles {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41571}, goog:processID: 9286, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:41571/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f274d67078fcad013855117149726e2]]>
+Command: [4fe51b508b1168970026aa8a6f2802be, getWindowHandles {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38465}, goog:processID: 2921, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38465/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe51b508b1168970026aa8a6f2802be]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.6.87.2-microsoft-standard-WSL2', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f274d67078fcad013855117149726e2, getWindowHandles {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41571}, goog:processID: 9286, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:41571/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f274d67078fcad013855117149726e2
+Command: [4fe51b508b1168970026aa8a6f2802be, getWindowHandles {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38465}, goog:processID: 2921, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38465/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe51b508b1168970026aa8a6f2802be
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -80,7 +80,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.AddToCartTest@79ca92b9]" started-at="2026-03-19T17:53:54 UTC" name="tearDown" finished-at="2026-03-19T17:53:54 UTC" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.AddToCartTest@79ca92b9]" started-at="2026-03-19T18:15:08 UTC" name="tearDown" finished-at="2026-03-19T18:15:08 UTC" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
